@@ -1,0 +1,100 @@
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: red;
+}
+body {background-color: rgba(51,51,51,0.8);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    color: #fff;
+    overflow: auto;
+    list-style-type: none;
+    width: 100%;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: deeppink;
+    text-align: center;
+    padding: 10px;
+}
+div.mare{
+    background-color: white;
+    width: 80%;
+    border: 2px solid red;
+    border-radius: 100px;
+}
+img.big{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    width: 45%;
+    height: 30%;
+}
+img.big1{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    width: 45%;
+    height: 40%;
+}
+p{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:"Times New Roman", Times, Serif;
+    font-size: 20px;
+    text-indent: 20px;
+}
+.inf{
+    font-size: 15px;
+    text-decoration: none;
+    color: green;
+}
+
+.inf:hover{
+    font-size: 18px;
+    text-decoration: none;
+    color: red;
+}
+hr.h{
+    width: 70%; 
+    border-color: red;
+}
+font{
+    color: white;
+    font-size: 50px;
+}
+@media screen and (max-width: 480px)
+{
+img.big{
+    width: 35%;
+    height: 20%;
+}
+li{
+}
+img.big1{
+    width: 35%;
+    height: 20%;
+}
+div.mare{
+    border-radius: 50px;
+}
+p{
+    font-size: 14px;
+    text-indent: 20px;
+}
+font{
+    font-size: 20px;
+}
+}
