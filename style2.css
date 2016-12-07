@@ -97,4 +97,8 @@ p{
 font{
     font-size: 20px;
 }
+    li{
+        display: block;
+        width: 100%;
+    }
 }
