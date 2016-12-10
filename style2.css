@@ -21,7 +21,7 @@ ul{
 li{
     display: inline-block;
     text-align: center;
-    width: 110px;
+    width: 120px;
 }
 a{
     display: block;
@@ -75,13 +75,11 @@ font{
     color: white;
     font-size: 50px;
 }
-@media screen and (max-width: 768px)
+@media screen and (handheld) (max-width: 768px)
 {
 img.big{
     width: 35%;
     height: 20%;
-}
-li{
 }
 img.big1{
     width: 35%;
