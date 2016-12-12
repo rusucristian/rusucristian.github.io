@@ -38,13 +38,11 @@ div.mare{
 }
 img.big{
     opacity:0.4;
-    filter:alpha(opacity=40);
     width: 45%;
     height: 30%;
 }
 img.big1{
     opacity:0.4;
-    filter:alpha(opacity=40);
     width: 45%;
     height: 40%;
 }
@@ -75,7 +73,7 @@ font{
     color: white;
     font-size: 50px;
 }
-@media screen and (handheld) (max-width: 768px)
+@media screen and (max-width: 768px)
 {
 img.big{
     width: 35%;
