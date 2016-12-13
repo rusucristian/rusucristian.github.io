@@ -36,6 +36,14 @@ div.mare{
     border: 2px solid red;
     border-radius: 100px;
 }
+div.mic{
+    background-color: white;
+    width: 40%;
+    border: 2px solid red;
+    border-radius: 50px;
+    display: inline-block;
+    height: 550px;
+}
 img.big{
     opacity:0.4;
     width: 45%;
@@ -46,13 +54,19 @@ img.big1{
     width: 45%;
     height: 40%;
 }
-p{
+p.one{
     text-align: left;
     padding-left: 30px;
     padding-right: 30px;
     font-family:"Times New Roman", Times, Serif;
     font-size: 20px;
-    text-indent: 20px;
+    text-indent: 30px;
+    font-style:italic;
+}
+p{
+    font-family:"Times New Roman", Times, Serif;
+    font-size: 20px;
+    font-style:italic;
 }
 .inf{
     font-size: 15px;
@@ -73,7 +87,25 @@ font{
     color: white;
     font-size: 50px;
 }
-@media screen and (max-width: 768px)
+fieldset{
+    width: 30%;
+    border-radius: 20px;
+    display: block;
+    margin-left: 5%;
+}
+#searchform{
+    width: 150%;
+}
+#searchform #s {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+    transition: width .7s;
+}
+@media screen and (min-width: 1367px)
 {
 img.big{
     width: 35%;
@@ -97,4 +129,7 @@ font{
         display: block;
         width: 100%;
     }
+#searchform{
+    width: 100%;
+}
 }
