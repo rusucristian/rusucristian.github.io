@@ -7,7 +7,9 @@ li a:hover:not(.active) {
     background-color: #555;
     color: red;
 }
-body {background-color: rgba(51,51,51,0.8);
+body {
+    background-color: rgba(51,51,51,0.8);
+    margin: 0;
 }
 ul{
     margin: 0;
@@ -41,7 +43,7 @@ div.mic{
     width: 40%;
     border: 2px solid red;
     border-radius: 50px;
-    display: inline-block;
+    display: inline-table;
     height: 100%;
 }
 img.big{
