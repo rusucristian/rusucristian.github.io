@@ -105,7 +105,14 @@ fieldset{
     padding: 10px;
     border-radius: 5px;
     box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
-    transition: width .7s;
+}
+fieldset{
+    border-color: red;
+    border-style: dotted;
+}
+legend{
+    color: darkgreen;
+    font-size: 20px; 
 }
 @media screen and (max-width: 1000px)
 {
@@ -127,10 +134,10 @@ p{
 font{
     font-size: 20px;
 }
-    li{
-        display: block;
-        width: 100%;
-    }
+li{
+    display: block;
+    width: 100%;
+}
 #searchform{
     width: 100%;
 }
